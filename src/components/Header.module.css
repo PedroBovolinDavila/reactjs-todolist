@@ -1,0 +1,29 @@
+.headerContainer {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inputContainer {
+  position: absolute;
+  height: 3rem;
+  top: calc(100% - (3.375rem / 2));
+  width: 46rem;
+  display: flex;
+}
+
+.inputContainer input {
+  height: 100%;
+  width: 100%;
+  margin-right: .5rem;
+}
+
+.inputContainer button {
+  width: 5.625rem;
+  background-color: var(--blue-dark);
+  border: 0;
+  color: var(--gray-100);
+}
